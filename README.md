@@ -1,6 +1,6 @@
 # npmtest-gulp.spritesmith-multi
 
-#### test coverage for  [gulp.spritesmith-multi (v3.1.0)](https://github.com/reducejs/gulp.spritesmith-multi#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp.spritesmith-multi.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp.spritesmith-multi) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp.spritesmith-multi.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp.spritesmith-multi)
+#### basic test coverage for  [gulp.spritesmith-multi (v3.1.0)](https://github.com/reducejs/gulp.spritesmith-multi#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp.spritesmith-multi.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp.spritesmith-multi) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp.spritesmith-multi.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp.spritesmith-multi)
 
 #### A wrapper for gulp.spritesmith to generate multiple sprites and stylesheets
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp.spritesmith-multi/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp.spritesmith-multi/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp.spritesmith-multi/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp.spritesmith-multi/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp.spritesmith-multi/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp.spritesmith-multi/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp.spritesmith-multi/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp.spritesmith-multi/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp.spritesmith-multi/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp.spritesmith-multi/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp.spritesmith-multi/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp.spritesmith-multi/build/coverage.html/index.html)
 
@@ -90,7 +90,8 @@
         "lint": "eslint *.js 'lib/**/*.js' test/*.js bin/*.js",
         "test": "npm run lint && tap test/*.js"
     },
-    "version": "3.1.0"
+    "version": "3.1.0",
+    "bin": {}
 }
 ```
 
